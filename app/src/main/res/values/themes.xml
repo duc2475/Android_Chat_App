@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DoAnAndroid" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/xanhduong</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/xanhduong</item>
+    </style>
+</resources>

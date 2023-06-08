@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:padding="@dimen/_24sdp"
+    android:scrollbars="none"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/LoGo"
+            android:layout_width="wrap_content"
+            android:layout_height="272dp"
+            android:src="@drawable/logo"></ImageView>
+
+        <Button
+            android:id="@+id/btn_Go"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_100sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:text="Login to continue"
+            android:textAlignment="center"
+            android:textColor="#ffb703"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+
+</ScrollView>

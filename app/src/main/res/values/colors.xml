@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="xanhduong">#0984e3</color>
+    <color name="tim_nhat">#a29bfe</color>
+    <color name="xanh_trung">#00cec9</color>
+    <color name="xanhla_vua">#00b894</color>
+    <color name="hong_nhat">#ff7675</color>
+    <color name="xam">#2d3436</color>
+    <color name="soft_white">#dfe6e9</color>
+    <color name="error">#d63031</color>
+</resources>
